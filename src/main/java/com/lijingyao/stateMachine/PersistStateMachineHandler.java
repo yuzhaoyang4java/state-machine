@@ -35,7 +35,7 @@ public class PersistStateMachineHandler extends LifecycleObjectSupport {
     }
 
     @Override
-    protected void onInit() throws Exception {
+    protected void onInit() {
         stateMachine.getStateMachineAccessor().doWithAllRegions(function -> function.addStateMachineInterceptor(interceptor));
     }
 

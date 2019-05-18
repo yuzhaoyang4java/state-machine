@@ -15,8 +15,6 @@
  */
 package com.lijingyao.stateMachine;
 
-import com.lijingyao.stateMachine.Order;
-import com.lijingyao.stateMachine.OrderRepo;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.messaging.support.MessageBuilder;
